@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interno Navbar</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 15px 50px;
+            background: white;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+            font-size: 24px;
+            font-weight: bold;
+            color: #1a1a1a;
+        }
+
+        .logo img {
+            width: 25px;
+            margin-right: 10px;
+        }
+
+        .nav-links {
+            display: flex;
+            list-style: none;
+            padding: 0;
+        }
+
+        .nav-links li {
+            margin: 0 15px;
+        }
+
+        .nav-links a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            padding: 5px 10px;
+        }
+
+        .nav-links a.home {
+            color: #c49b6c;
+            font-weight: bold;
+        }
+
+        .image-container {
+            position: relative;
+            display: inline-block;
+            width: 100%;
+        }
+
+        .background-image {
+            width: 100%;
+            display: block;
+        }
+
+        .overlay-image {
+            position: absolute;
+            top: 35%;
+            left: 21%;
+            width: 30%;
+            height: auto;
+            transform: translate(-50%, -50%);
+            pointer-events: none;
+        }
+
+        .overlay-button {
+            position: absolute;
+            top: 65%;
+            left: 11%;
+            transform: translate(-50%, -50%);
+            width: 120px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .overlay-txt {
+            position: absolute;
+            top: 50%;
+            left: 24%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .overlay-t2x2 {
+            position: absolute;
+            top: 55%;
+            left: 17%;
+            transform: translate(-50%, -50%);
+            width: 330px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+
+        .overlay-Get-startedd {
+            position: absolute;
+            top: 65%;
+            left: 10%;
+            transform: translate(-50%, -50%);
+            width: 68px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+
+
+        .overlay-Start2 {
+            position: absolute;
+            top: 145%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 1200px;
+            width: 100%;
+            display: block;
+        }
+
+
+        .overlay-Startix {
+            position: absolute;
+            top: 140%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 500px;
+            display: block;
+        }
+
+
+        .overlay-contact {
+            position: absolute;
+            top: 145%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 400px;
+            display: block;
+        }
+
+        .overlay-Get-Frame {
+            position: absolute;
+            top: 160%;
+            left: 45%;
+            transform: translate(-30%, -50%);
+            width: 200px;
+            cursor: pointer;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="logo.png" alt="Logo"> Interno
+        </div>
+        <ul class="nav-links">
+            <li><a href="#" class="home">Home</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Pages</a></li>
+            <li><a href="#">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <div class="image-container">
+        <img src="IMAGE (2).png" alt="Background Image" class="background-image">
+
+        <img src="IMAGE (3).png" alt="Background Image" class="overlay-image">
+
+        <img src="IMAGE (1).png" alt="Button Image" class="overlay-button">
+
+        <img src="IMAGE (4).png" alt="Background Image" class="overlay-txt">
+
+        <img src="IMAGE (6).png" alt="Background Image" class="overlay-t2x2">
+
+        <img src="IMAGE (5).png" alt="Button Image" class="overlay-Get-startedd">
+
+        <img src="mm.png" alt="black" class="overlay-Start2">
+
+        <img src="Wanna join the interno_.png" alt="Wanna" class="overlay-Startix">
+        
+        <img src="Contact Usn.png" alt="Contact" class="overlay-contact">
+
+        <img src="Frame (1).png" alt="Contact" class="overlay-Get-Frame">
+      
+    </div>
+</body>
+</html>
